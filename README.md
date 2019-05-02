@@ -4,19 +4,19 @@ Open Source PHP MVC Framework
 
 Basic Setup:
 
-MYSQL PART:
+<b>MYSQL PART:</b>
 
-Go to MySQL or open phpMyadmin and create a database name called 'codeigniter_blog_db' and then import the codeigniter_blog_db.sql file into to the database.
+Go to MySQL or open phpMyadmin and create a database name called <b>'codeigniter_blog_db'</b> and then import the <b>codeigniter_blog_db.sql</b> file into to the database.
 
-Now run xampp or wamp server and visit http://localhost/codeigniter
+Now run xampp or wamp server and visit: <b>http://localhost/codeigniter</b>
 
 Note: work fine with PHP 5 version. above php 5 it will give error.
 
 
-CODEIGNITER CONFIGURATIONS:
+<b>CODEIGNITER CONFIGURATIONS:</b>
 
-1. First, open the database.php file inside /codigniter/application/config/database.php and change the mysql hostname, username and password as per your database server configuration:
-
+1. First, open the <b>database.php</b> file inside <b>/codigniter/application/config/database.php</b> and change the mysql hostname, username and password as per your database server configuration:
+<pre>
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',//change this as per your server
@@ -38,6 +38,6 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
-2. Then, open config.php file inside /codigniter/application/config/config.php and set the $config['base_url'] to $config['base_url'] = 'http://localhost/codeigniter/';
+</pre>
+2. Then, open <b>config.php</b> file inside <b>/codigniter/application/config/config.php</b> and set the <b>$config['base_url']</b> to <b>$config['base_url'] = 'http://localhost/codeigniter/';</b>
 
